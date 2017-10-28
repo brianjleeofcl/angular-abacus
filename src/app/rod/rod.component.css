@@ -1,0 +1,20 @@
+.rod {
+  display: flex;
+  flex-flow: column;
+}
+
+.above {
+  display: flex;
+  flex-flow: column;
+}
+
+.below {
+  display: flex;
+  flex-flow: column;
+}
+
+.bead {
+  height: 20px;
+  width: 20px;
+  background: green;
+}

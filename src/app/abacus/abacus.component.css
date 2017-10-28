@@ -1,0 +1,6 @@
+#abacus {
+  border: 2px solid brown;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
