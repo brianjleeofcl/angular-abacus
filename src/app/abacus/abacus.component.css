@@ -1,6 +1,10 @@
 #abacus {
   border: 2px solid brown;
   display: flex;
-  flex-flow: row;
+  flex-flow: row-reverse;
   justify-content: space-around;
+}
+
+#abacus li {
+  list-style: none;
 }

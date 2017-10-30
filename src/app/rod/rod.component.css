@@ -6,15 +6,25 @@
 .above {
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  border-bottom: 1px solid brown;
 }
 
 .below {
   display: flex;
   flex-flow: column;
+  border-top: 1px solid brown;
 }
 
 .bead {
   height: 20px;
   width: 20px;
   background: green;
+  border: 2px solid red;
+}
+
+.blank {
+  height: 20px;
+  width: 20px;
+  border: 2px solid transparent;
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Abacus } from '../abacus';
 
 @Component({
   selector: 'app-abacus',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./abacus.component.css']
 })
 export class AbacusComponent implements OnInit {
+  private abacus: Abacus;
 
-  constructor() { }
+  constructor() {
+    this.abacus = new Abacus(5);
+  }
 
   ngOnInit() {
   }

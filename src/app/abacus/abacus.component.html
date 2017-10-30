@@ -1,7 +1,6 @@
-<div id="abacus">
-  <app-rod></app-rod>
-  <app-rod></app-rod>
-  <app-rod></app-rod>
-  <app-rod></app-rod>
-  <app-rod></app-rod>
-</div>
+<ul id="abacus">
+  <li *ngFor="let rod of abacus.rods">
+    <app-rod [rod]="rod"></app-rod>
+  </li>
+</ul>
+<h3>{{abacus.getValue()}}</h3>
